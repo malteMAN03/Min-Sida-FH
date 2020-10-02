@@ -23,7 +23,8 @@ header {
 }
 
 .bilar{
-    width: 600px;
+    width: 35%;
+    height: 35%;
 }
 .intro{
     display: flex;
