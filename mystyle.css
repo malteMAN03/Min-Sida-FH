@@ -1,20 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: cornflowerblue
     }
-.header {
-    color:ghostwhite; 
+
+header {
+    color:rgb(250, 250, 255); 
     font-size:40px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100%;
+}
+
+header h1 {
     text-align: center;
 }
+
 #fotnot {
     display: flex;
     justify-content: space-around;
 }
+
 .gtr{
     width: 600px;
     text-align: right;
 
-}
-table.spacing {
-    border-spacing: 200px;
 }
