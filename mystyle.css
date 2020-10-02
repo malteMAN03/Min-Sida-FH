@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin-left: 3px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -17,17 +17,16 @@ header {
     width: 100%;
 }
 
-header h1 {
-    text-align: center;
-}
-
 #fotnot {
     display: flex;
     justify-content: space-around;
 }
 
-.gtr{
+.bilar{
     width: 600px;
-    text-align: right;
-
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
 }
